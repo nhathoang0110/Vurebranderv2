@@ -1,0 +1,14 @@
+DETECTION:
+  model_path: weights/car_detection/yolov8m.pt
+
+
+PLATE_DETECTION:
+  model_path: weights/plate_detection/best.pt
+
+IMAGE:
+  LOGO: images/logo.webp
+  LOGO_REPLACEMENT: images/height_logo.jpg
+
+CLASSIFY:
+  model_path: weights/classification/vucarinexmodel.onnx
+  input_size: 224

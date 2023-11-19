@@ -1,0 +1,12 @@
+services:
+  rebrander_v2:
+    image: rebrander_v2:latest
+    container_name: rebrander_v2
+    restart: always
+    volumes:
+      - ./logs/:/app/logs
+    working_dir: /app
+    ports:
+      - 5556:5555
+    environment:
+      - TZ=Asia/Ho_Chi_Minh

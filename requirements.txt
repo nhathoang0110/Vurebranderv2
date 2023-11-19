@@ -1,0 +1,33 @@
+pyyaml-include==1.3
+onnx==1.13.0
+numpy~=1.24.3
+scipy
+scikit-learn
+opencv-python~=4.7.0.72
+onnxruntime~=1.14.1
+pyclipper
+pandas~=2.0.1
+python-multipart
+# IPython
+rembg~=2.0.36
+torch==1.11.0
+torchvision==0.12.0
+torchaudio==0.11.0
+matplotlib~=3.7.1
+ultralytics~=8.0.101
+gcloud~=0.18.3
+aiofile~=3.8.5
+gcloud-aio-storage
+google-cloud-storage
+python-dotenv~=1.0.0
+-r server/requirements.txt
+starlette~=0.26.1
+pydantic~=1.10.7
+aiohttp~=3.8.4
+requests~=2.30.0
+pyyaml~=6.0
+pillow~=9.5.0
+tqdm~=4.65.0
+seaborn~=0.12.2
+psutil~=5.9.5
+thop~=0.1.1-2209072238
